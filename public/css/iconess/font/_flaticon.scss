@@ -1,0 +1,76 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 01/08/2020 17:14
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-info:before { content: "\f100"; }
+.flaticon-pin:before { content: "\f101"; }
+.flaticon-map:before { content: "\f102"; }
+.flaticon-checklist:before { content: "\f103"; }
+.flaticon-broker:before { content: "\f104"; }
+.flaticon-exam:before { content: "\f105"; }
+.flaticon-sell:before { content: "\f106"; }
+.flaticon-kitchen:before { content: "\f107"; }
+.flaticon-kitchen-1:before { content: "\f108"; }
+.flaticon-car:before { content: "\f109"; }
+.flaticon-hot-pool:before { content: "\f10a"; }
+.flaticon-yard:before { content: "\f10b"; }
+.flaticon-work:before { content: "\f10c"; }
+.flaticon-garden:before { content: "\f10d"; }
+.flaticon-police:before { content: "\f10e"; }
+.flaticon-cctv:before { content: "\f10f"; }
+.flaticon-electric-generator:before { content: "\f110"; }
+.flaticon-pin-1:before { content: "\f111"; }
+    
+    $font-Flaticon-info: "\f100";
+    $font-Flaticon-pin: "\f101";
+    $font-Flaticon-map: "\f102";
+    $font-Flaticon-checklist: "\f103";
+    $font-Flaticon-broker: "\f104";
+    $font-Flaticon-exam: "\f105";
+    $font-Flaticon-sell: "\f106";
+    $font-Flaticon-kitchen: "\f107";
+    $font-Flaticon-kitchen-1: "\f108";
+    $font-Flaticon-car: "\f109";
+    $font-Flaticon-hot-pool: "\f10a";
+    $font-Flaticon-yard: "\f10b";
+    $font-Flaticon-work: "\f10c";
+    $font-Flaticon-garden: "\f10d";
+    $font-Flaticon-police: "\f10e";
+    $font-Flaticon-cctv: "\f10f";
+    $font-Flaticon-electric-generator: "\f110";
+    $font-Flaticon-pin-1: "\f111";
